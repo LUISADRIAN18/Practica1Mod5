@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name" translatable="false">Practic1Mod5</string>
+    <string name="creador" translatable="false">Adrian Garcia</string>
+    <string name="version" translatable="false">1.0</string>
+    <string name="btnCalcular">calcular</string>
+    <string name="valorA">Ingresa el valor de a</string>
+    <string name="valorH">Ingresa el valor de h</string>
+    <string name="valorB">Ingresa el valor de b</string>
+    <string name="valorC">Ingresa el valor de c</string>
+    <string name="valor_requerido">ingrese un número </string>
+    <string name="valores_iguales">el número %1$.2f es igual al número %2$.2f, la fórmula es para rectángulos</string>
+    <string name="valores_iguales_triangulo">la base  %1$.2f es igual a la altura %2$.2f, la fórmula es para triángulos</string>
+    <string name="campos_vacios">Algún campo está vacio!!!</string>
+    <string name="description">En el caso de que dos de las dimensiones sean iguales, se trata de un prisma cuadrangular (dos caras son cuadrados iguales).\n En el caso de ser todas sus caras iguales se trata de un cubo.
+
+
+
+    </string>
+    <string name="errorVol">"ningun valor debe ser 0 "</string>
+    <string name="resultados">Resultados</string>
+    <string name="resultadoForm">El resultado es: %.2f</string>
+    <string name="resultadoOrtoedro">El volumen con los valores: a %1$.2f, b %2$.2f y c %3$.2f es %4$.2f</string>
+    <string name="titulo">Elija una Formúla</string>
+
+
+    <string name="f1">Área Rectángulo</string>
+    <string name="f2">Área Triángulo</string>
+    <string name="f3">Volúmen Ortoedro</string>
+
+    <string-array name="formulas">
+
+
+        <item >@string/f1</item>
+        <item>@string/f2</item>
+        <item>@string/f3</item>
+
+    </string-array>
+
+
+</resources>

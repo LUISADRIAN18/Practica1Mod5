@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="btnCalcular">calcolare</string>
+    <string name="valorA">Immettere il valore di a</string>
+    <string name="valorH">Immettere il valore di h</string>
+    <string name="valorB">Immettere il valore di b</string>
+    <string name="valorC">Immettere il valore di c</string>
+    <string name="valor_requerido">Inserisci un numero </string>
+    <string name="valores_iguales">il numero %1$.2f è uguale al numero  %2$.2f, la formula è per i rettangoli</string>
+    <string name="valores_iguales_triangulo">base %1$.2f è uguale all\'altezza  %2$.2f, la formula è per i triangoli</string>
+    <string name="campos_vacios">Alcuni campi sono vuoti!!!</string>
+    <string name="description">Se due delle dimensioni sono uguali, è un prisma quadrangolare (due facce sono quadrati uguali).\n Se tutte le sue facce sono uguali, è un cubo.
+
+
+    </string>
+    <string name="errorVol">"nessun valore deve essere 0 "</string>
+    <string name="resultados">Risultati</string>
+    <string name="resultadoForm">Il risultato è: %.2f</string>
+    <string name="resultadoOrtoedro">Il volume con i valori: a %1$.2f, b %2$.2f y c %3$.2f è %4$.2f</string>
+    <string name="titulo">Scegli una formula</string>
+
+    <string name="f1">Area rettangolare</string>
+    <string name="f2">Area triangolo</string>
+    <string name="f3">Ortoedro volumetrico</string>
+</resources>

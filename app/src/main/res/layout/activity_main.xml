@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo"
+        android:textColor="#546E7A"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+        />
+
+    <Spinner
+        android:id="@+id/spnFormulas"
+        android:layout_width="409dp"
+        android:layout_height="48dp"
+        android:background="#C8F8F8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titulo" />
+
+    <ImageView
+        android:id="@+id/imvForm"
+        android:layout_width="260dp"
+        android:layout_height="227dp"
+        android:layout_marginTop="96dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spnFormulas"
+        tools:ignore="ImageContrastCheck"
+        tools:srcCompat="@tools:sample/avatars"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvCurrentDistance"
+        android:layout_width="325dp"
+        android:layout_height="200dp"
+        app:cardBackgroundColor="@android:color/transparent"
+        app:cardCornerRadius="4dp"
+        app:cardElevation="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imvForm"
+        app:layout_constraintVertical_bias="0.050000012">
+
+
+        <LinearLayout
+            android:id="@+id/lyF"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/edtA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:minHeight="48dp"
+                android:paddingTop="10dp"
+                android:textAlignment="center"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/edtB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:minHeight="48dp"
+                android:textAlignment="center"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/edtC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:minHeight="48dp"
+                android:textAlignment="center"
+                android:importantForAutofill="no" />
+
+            <Button
+                android:id="@+id/btnCalcular"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="calcular"
+                android:text="@string/btnCalcular" />
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/txtD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textAlignment="center"
+
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cvCurrentDistance" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
